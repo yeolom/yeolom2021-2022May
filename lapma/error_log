@@ -1,0 +1,24 @@
+[08-Feb-2022 19:54:37 UTC] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home/yeolomco/public_html/lapma/db.php on line 8
+[08-Feb-2022 19:54:37 UTC] PHP Notice:  Trying to get property of non-object in /home/yeolomco/public_html/lapma/db.php on line 11
+[08-Feb-2022 19:54:37 UTC] PHP Warning:  mysqli_stmt_init() expects parameter 1 to be mysqli, boolean given in /home/yeolomco/public_html/lapma/model.php on line 5
+[08-Feb-2022 19:54:37 UTC] PHP Warning:  mysqli_stmt_prepare() expects parameter 1 to be mysqli_stmt, null given in /home/yeolomco/public_html/lapma/model.php on line 9
+[08-Feb-2022 19:54:37 UTC] PHP Warning:  mysqli_close() expects parameter 1 to be mysqli, boolean given in /home/yeolomco/public_html/lapma/index.php on line 71
+[08-Feb-2022 19:54:37 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/yeolomco/public_html/lapma/index.php on line 75
+[08-Feb-2022 19:59:17 UTC] PHP Warning:  mysqli_connect(): (HY000/1044): Access denied for user 'yeolomco_root'@'localhost' to database 'yeolomco_lapma' in /home/yeolomco/public_html/lapma/db.php on line 23
+[08-Feb-2022 19:59:17 UTC] PHP Notice:  Trying to get property of non-object in /home/yeolomco/public_html/lapma/db.php on line 26
+[08-Feb-2022 19:59:17 UTC] PHP Warning:  mysqli_stmt_init() expects parameter 1 to be mysqli, boolean given in /home/yeolomco/public_html/lapma/model.php on line 5
+[08-Feb-2022 19:59:17 UTC] PHP Warning:  mysqli_stmt_prepare() expects parameter 1 to be mysqli_stmt, null given in /home/yeolomco/public_html/lapma/model.php on line 9
+[08-Feb-2022 19:59:17 UTC] PHP Warning:  mysqli_close() expects parameter 1 to be mysqli, boolean given in /home/yeolomco/public_html/lapma/index.php on line 71
+[08-Feb-2022 19:59:17 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/yeolomco/public_html/lapma/index.php on line 75
+[08-Feb-2022 19:59:23 UTC] PHP Warning:  mysqli_connect(): (HY000/1044): Access denied for user 'yeolomco_root'@'localhost' to database 'yeolomco_lapma' in /home/yeolomco/public_html/lapma/db.php on line 23
+[08-Feb-2022 19:59:23 UTC] PHP Notice:  Trying to get property of non-object in /home/yeolomco/public_html/lapma/db.php on line 26
+[08-Feb-2022 19:59:23 UTC] PHP Warning:  mysqli_stmt_init() expects parameter 1 to be mysqli, boolean given in /home/yeolomco/public_html/lapma/model.php on line 5
+[08-Feb-2022 19:59:23 UTC] PHP Warning:  mysqli_stmt_prepare() expects parameter 1 to be mysqli_stmt, null given in /home/yeolomco/public_html/lapma/model.php on line 9
+[08-Feb-2022 19:59:23 UTC] PHP Warning:  mysqli_close() expects parameter 1 to be mysqli, boolean given in /home/yeolomco/public_html/lapma/index.php on line 71
+[08-Feb-2022 19:59:23 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/yeolomco/public_html/lapma/index.php on line 75
+[11-Feb-2022 09:21:19 UTC] PHP Notice:  Undefined index: titleId in /home/yeolomco/public_html/lapma/title.php on line 6
+[11-Feb-2022 09:21:19 UTC] PHP Notice:  Undefined index: titleId in /home/yeolomco/public_html/lapma/title.php on line 16
+[11-Feb-2022 09:21:19 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/yeolomco/public_html/lapma/title.php on line 105
+[21-Mar-2022 19:10:14 UTC] PHP Notice:  Undefined index: titleId in /home/yeolomco/public_html/lapma/title.php on line 6
+[21-Mar-2022 19:10:14 UTC] PHP Notice:  Undefined index: titleId in /home/yeolomco/public_html/lapma/title.php on line 16
+[21-Mar-2022 19:10:14 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/yeolomco/public_html/lapma/title.php on line 105

@@ -1,0 +1,21 @@
+[07-Jan-2022 20:31:21 UTC] PHP Warning:  getimagesize(): Filename cannot be empty in /home/yeolomco/public_html/blog/assest/insert.php on line 177
+[30-Jan-2022 08:02:47 UTC] PHP Warning:  getimagesize(): Filename cannot be empty in /home/yeolomco/public_html/blog/assest/insert.php on line 177
+[30-Jan-2022 08:02:47 UTC] PHP Warning:  getimagesize(): Filename cannot be empty in /home/yeolomco/public_html/blog/assest/insert.php on line 177
+[06-Apr-2022 18:47:27 UTC] PHP Warning:  getimagesize(): Filename cannot be empty in /home/yeolomco/public_html/blog/assest/insert.php on line 177
+[06-Apr-2022 18:47:27 UTC] PHP Notice:  Undefined variable: ata in /home/yeolomco/public_html/blog/assest/insert.php on line 77
+[06-Apr-2022 18:47:27 UTC] PHP Warning:  array_keys() expects parameter 1 to be array, null given in /home/yeolomco/public_html/blog/assest/insert.php on line 120
+[06-Apr-2022 18:47:27 UTC] PHP Warning:  implode(): Invalid arguments passed in /home/yeolomco/public_html/blog/assest/insert.php on line 142
+[06-Apr-2022 18:47:27 UTC] PHP Warning:  array_keys() expects parameter 1 to be array, null given in /home/yeolomco/public_html/blog/assest/insert.php on line 123
+[06-Apr-2022 18:47:27 UTC] PHP Warning:  implode(): Invalid arguments passed in /home/yeolomco/public_html/blog/assest/insert.php on line 142
+[06-Apr-2022 18:48:27 UTC] PHP Warning:  getimagesize(): Filename cannot be empty in /home/yeolomco/public_html/blog/assest/insert.php on line 177
+[06-Apr-2022 18:48:27 UTC] PHP Notice:  Undefined variable: ata in /home/yeolomco/public_html/blog/assest/insert.php on line 77
+[06-Apr-2022 18:48:27 UTC] PHP Warning:  array_keys() expects parameter 1 to be array, null given in /home/yeolomco/public_html/blog/assest/insert.php on line 120
+[06-Apr-2022 18:48:27 UTC] PHP Warning:  implode(): Invalid arguments passed in /home/yeolomco/public_html/blog/assest/insert.php on line 142
+[06-Apr-2022 18:48:27 UTC] PHP Warning:  array_keys() expects parameter 1 to be array, null given in /home/yeolomco/public_html/blog/assest/insert.php on line 123
+[06-Apr-2022 18:48:27 UTC] PHP Warning:  implode(): Invalid arguments passed in /home/yeolomco/public_html/blog/assest/insert.php on line 142
+[06-Apr-2022 18:55:03 UTC] PHP Notice:  Undefined variable: ata in /home/yeolomco/public_html/blog/assest/insert.php on line 77
+[06-Apr-2022 18:55:03 UTC] PHP Warning:  array_keys() expects parameter 1 to be array, null given in /home/yeolomco/public_html/blog/assest/insert.php on line 120
+[06-Apr-2022 18:55:03 UTC] PHP Warning:  implode(): Invalid arguments passed in /home/yeolomco/public_html/blog/assest/insert.php on line 142
+[06-Apr-2022 18:55:03 UTC] PHP Warning:  array_keys() expects parameter 1 to be array, null given in /home/yeolomco/public_html/blog/assest/insert.php on line 123
+[06-Apr-2022 18:55:03 UTC] PHP Warning:  implode(): Invalid arguments passed in /home/yeolomco/public_html/blog/assest/insert.php on line 142
+[06-Apr-2022 18:55:16 UTC] PHP Warning:  getimagesize(): Filename cannot be empty in /home/yeolomco/public_html/blog/assest/insert.php on line 177

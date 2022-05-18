@@ -1,0 +1,25 @@
+[16-Dec-2021 16:17:07 UTC] PHP Warning:  move_uploaded_file(documents/): failed to open stream: No such file or directory in /home/yeolomco/public_html/marketplace/user/source/upload/controller.php on line 30
+[16-Dec-2021 16:17:07 UTC] PHP Warning:  move_uploaded_file(): Unable to move '/tmp/phplUmGCt' to 'documents/' in /home/yeolomco/public_html/marketplace/user/source/upload/controller.php on line 30
+[21-Dec-2021 10:54:01 UTC] PHP Notice:  Undefined variable: userId in /home/yeolomco/public_html/marketplace/user/source/upload/test.php on line 8
+[21-Dec-2021 10:54:01 UTC] PHP Notice:  Undefined variable: pdfPath in /home/yeolomco/public_html/marketplace/user/source/upload/test.php on line 19
+[21-Dec-2021 10:54:30 UTC] PHP Notice:  Undefined variable: userId in /home/yeolomco/public_html/marketplace/user/source/upload/test.php on line 8
+[21-Dec-2021 10:54:30 UTC] PHP Notice:  Undefined variable: pdfPath in /home/yeolomco/public_html/marketplace/user/source/upload/test.php on line 19
+[21-Dec-2021 10:59:11 UTC] PHP Notice:  Undefined variable: conn in /home/yeolomco/public_html/marketplace/user/source/upload/index.php on line 12
+[21-Dec-2021 10:59:11 UTC] PHP Warning:  mysqli_close() expects parameter 1 to be mysqli, null given in /home/yeolomco/public_html/marketplace/user/source/upload/index.php on line 12
+[21-Dec-2021 10:59:53 UTC] PHP Warning:  mkdir(): No such file or directory in /home/yeolomco/public_html/marketplace/user/source/upload/controller.php on line 61
+[21-Dec-2021 10:59:53 UTC] PHP Warning:  move_uploaded_file(/pdf/1/AndroidMidTerm.pdf): failed to open stream: No such file or directory in /home/yeolomco/public_html/marketplace/user/source/upload/controller.php on line 70
+[21-Dec-2021 10:59:53 UTC] PHP Warning:  move_uploaded_file(): Unable to move '/tmp/phpV3MuoN' to '/pdf/1/AndroidMidTerm.pdf' in /home/yeolomco/public_html/marketplace/user/source/upload/controller.php on line 70
+[21-Dec-2021 11:03:17 UTC] PHP Warning:  mkdir(): No such file or directory in /home/yeolomco/public_html/marketplace/user/source/upload/controller.php on line 61
+[21-Dec-2021 11:03:17 UTC] PHP Warning:  move_uploaded_file(/pdf/1/AndroidMidTerm.pdf): failed to open stream: No such file or directory in /home/yeolomco/public_html/marketplace/user/source/upload/controller.php on line 70
+[21-Dec-2021 11:03:17 UTC] PHP Warning:  move_uploaded_file(): Unable to move '/tmp/phpeiJIa6' to '/pdf/1/AndroidMidTerm.pdf' in /home/yeolomco/public_html/marketplace/user/source/upload/controller.php on line 70
+[21-Dec-2021 11:05:01 UTC] PHP Warning:  mkdir(): No such file or directory in /home/yeolomco/public_html/marketplace/user/source/upload/controller.php on line 61
+[21-Dec-2021 11:05:01 UTC] PHP Warning:  move_uploaded_file(/pdf/1/AndroidMidTerm.pdf): failed to open stream: No such file or directory in /home/yeolomco/public_html/marketplace/user/source/upload/controller.php on line 70
+[21-Dec-2021 11:05:01 UTC] PHP Warning:  move_uploaded_file(): Unable to move '/tmp/phpAZ8beJ' to '/pdf/1/AndroidMidTerm.pdf' in /home/yeolomco/public_html/marketplace/user/source/upload/controller.php on line 70
+[21-Dec-2021 11:16:34 UTC] PHP Warning:  mysqli_stmt_init(): Couldn't fetch mysqli in /home/yeolomco/public_html/marketplace/model/model.php on line 11
+[21-Dec-2021 11:16:34 UTC] PHP Warning:  mysqli_stmt_prepare() expects parameter 1 to be mysqli_stmt, null given in /home/yeolomco/public_html/marketplace/model/model.php on line 14
+[21-Dec-2021 11:16:34 UTC] PHP Warning:  mysqli_close(): Couldn't fetch mysqli in /home/yeolomco/public_html/marketplace/user/source/upload/controller.php on line 73
+[21-Dec-2021 11:18:58 UTC] PHP Warning:  mysqli_stmt_init(): Couldn't fetch mysqli in /home/yeolomco/public_html/marketplace/model/model.php on line 11
+[21-Dec-2021 11:18:58 UTC] PHP Warning:  mysqli_stmt_prepare() expects parameter 1 to be mysqli_stmt, null given in /home/yeolomco/public_html/marketplace/model/model.php on line 14
+[21-Dec-2021 11:18:58 UTC] PHP Warning:  mysqli_close(): Couldn't fetch mysqli in /home/yeolomco/public_html/marketplace/user/source/upload/controller.php on line 73
+[24-Dec-2021 12:21:54 UTC] PHP Notice:  Undefined variable: conn in /home/yeolomco/public_html/marketplace/user/source/upload/index.php on line 6
+[24-Dec-2021 12:21:54 UTC] PHP Warning:  mysqli_close() expects parameter 1 to be mysqli, null given in /home/yeolomco/public_html/marketplace/user/source/upload/index.php on line 6
