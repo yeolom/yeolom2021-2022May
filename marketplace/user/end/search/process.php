@@ -93,7 +93,7 @@ if($price == 0){
                 CURLOPT_CUSTOMREQUEST => "GET",
                 CURLOPT_HTTPHEADER => array(
                   "Content-Type: application/json",
-                  "Authorization: Bearer FLWSECK-a3892371beb6a43122ceeb30db3288b2-X"
+                  "Authorization: Bearer {Secret Key goes here}"
                 ),
               ));
               
