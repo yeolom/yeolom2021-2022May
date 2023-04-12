@@ -1,31 +1,17 @@
 <?php
-// //Local workspace.
-// $server = "localhost";
-// $user = "root";
-// $password = "";
-// $database = "lapma";
+//Local workspace.
+$server = "localhost";
+$user = "root";
+$password = "";
+$database = "lapma";
 
-// $conn = mysqli_connect($server, $user, $password, $database);
-
-// // Check connection
-// if ($conn->connect_error) {
-//     die("Connection failed: " . $conn->connect_error);
-// }
-
-
-//Cloud workspace.
-
- $server = "localhost";
- $user = "yeolomco_root";
- $password = "Olom@l123";
- $database = "yeolomco_emailListing";
-
- $conn = mysqli_connect($server, $user, $password, $database);
+$conn = mysqli_connect($server, $user, $password, $database);
 
 // Check connection
- if ($conn->connect_error) {
-     die("Connection failed: " . $conn->connect_error);
+if ($conn->connect_error) {
+    die("Connection failed: " . $conn->connect_error);
 }
+
 
 
 if((!isset($_POST['email']))||($_POST['email'] == NULL)){
