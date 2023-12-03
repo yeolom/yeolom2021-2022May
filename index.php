@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<link rel="shortcut icon" href="https://yeolom.com//favicon.png" type="image/x-icon"> 
+<link rel="shortcut icon" href="\yeolom2021-2022May\favicon.png" type="image/x-icon"> 
    
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -24,15 +24,15 @@
             <div class="collapse navbar-collapse" id="navMenu">
                 <ul class="navbar-nav ms-auto">
                     <li class="nav-item">
-                        <a href="https://yeolom.com/marketplace/" target="_blank" class="nav-link">MarketPlace</a>
+                        <a href="\yeolom2021-2022May\marketplace" target="_blank" class="nav-link">MarketPlace</a>
+                    </li>
+                   
+                    <li class="nav-item">
+                        <a href="\yeolom2021-2022May\blog" target="_blank" class="nav-link">Blog</a>
                     </li>
                     
                     <li class="nav-item">
-                        <a href="https://yeolom.com/blog/" target="_blank" class="nav-link">Blog</a>
-                    </li>
-                    
-                    <li class="nav-item">
-                        <a href="https://yeolom.com/lapma" target="_blank" class="nav-link">Lapma</a>
+                        <a href="\yeolom2021-2022May\lapma" target="_blank" class="nav-link">Lapma</a>
                     </li>
                 </ul>
             </div>
@@ -85,7 +85,7 @@
                         <div class="card-body text-center">
                             <h3 class="card-title">MarketPlace</h3> 
                             <p class="card-test">Yeolom would need a lucrative income stream.<br/>So Yeolom built a PDF <span class="text-primary">MarketPlace</span>.</p>
-                            <a href="https://yeolom.com/marketplace/" target="_blank" class="btn btn-primary m-3 px-4">Visit</a>
+                            <a href="\yeolom2021-2022May\marketplace" target="_blank" class="btn btn-primary m-3 px-4">Visit</a>
                     
                         </div>
                     </div>
@@ -95,7 +95,7 @@
                         <div class="card-body text-center">
                             <h3 class="card-title">Blog</h3> 
                             <p class="card-test">Yeolom would need an audience to monetize.<br/>So Yeolom built a <span class="text-primary">Blog</span> to grow an Audience.</p>
-                            <a href="https://yeolom.com/blog/" target="_blank" class="btn btn-primary m-3 px-4">Visit</a>
+                            <a href="\yeolom2021-2022May\blog" target="_blank" class="btn btn-primary m-3 px-4">Visit</a>
                     
                         </div>
                     </div>
@@ -105,7 +105,7 @@
                         <div class="card-body text-center">
                             <h3 class="card-title">Lapma</h3> 
                             <p class="card-test">Humans and other specie needs entertainment.<br/>So Yeolom built a lucrative <span class="text-primary">entertainment business</span>.</p>
-                            <a href="https://yeolom.com/lapma" target="_blank" class="btn btn-primary m-3 px-4">Visit</a>
+                            <a href="\yeolom2021-2022May\lapma" target="_blank" class="btn btn-primary m-3 px-4">Visit</a>
                     
                         </div>
                     </div>
