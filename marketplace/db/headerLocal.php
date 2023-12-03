@@ -2,7 +2,7 @@
     $server = "localhost";
     $user = "root";
     $password = "";
-    $database = "marketplace";
+    $database = "yeolomco_marketplace";
 
     $conn = mysqli_connect($server, $user, $password, $database);
 
