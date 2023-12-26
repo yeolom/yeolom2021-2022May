@@ -1,0 +1,621 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@400;500&family=Roboto+Mono:wght@200;300;700&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+body, html {
+    margin: 0;
+    padding: 0;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+
+body{
+    min-height: 100vh;
+    overflow-x: hidden;
+}
+
+/* Navbar Section 1 */
+
+  
+  /* header */
+  
+  .header {
+    background-color: #4472C4;
+    box-shadow: 1px 1px 4px 0 rgba(0,0,0,.1);
+    position: fixed;
+    width: 100%;
+    z-index: 3;
+  }
+  
+  .header ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    overflow: hidden;
+    background-color: #4472C4;
+  }
+  
+  .header li a {
+    display: block;
+    
+    padding: 20px 20px;
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  .header .nav-item{
+    padding-top: 25px;
+}
+
+  .header li a:hover,
+  .header .menu-btn:hover {
+   color: rgb(0, 0, 0);
+  }
+  
+  .header .logo {
+    display: block;
+    float: left;
+    font-size: 2em;
+    padding: 10px 20px;
+    text-decoration: none;
+  }
+  
+  /* menu */
+  
+  .header .menu {
+    clear: both;
+    max-height: 0;
+    transition: max-height .2s ease-out;
+  }
+  
+  /* menu icon */
+  
+  .header .menu-icon {
+    cursor: pointer;
+    display: inline-block;
+    float: right;
+    padding: 28px 20px;
+    position: relative;
+    user-select: none;
+  }
+  
+  .header .menu-icon .navicon {
+    background: #333;
+    display: block;
+    height: 2px;
+    position: relative;
+    transition: background .2s ease-out;
+    width: 18px;
+  }
+  
+  .header .menu-icon .navicon:before,
+  .header .menu-icon .navicon:after {
+    background: #333;
+    content: '';
+    display: block;
+    height: 100%;
+    position: absolute;
+    transition: all .2s ease-out;
+    width: 100%;
+  }
+  
+  .header .menu-icon .navicon:before {
+    top: 5px;
+  }
+  
+  .header .menu-icon .navicon:after {
+    top: -5px;
+  }
+  
+  /* menu btn */
+  
+  .header .menu-btn {
+    display: none;
+  }
+  
+  .header .menu-btn:checked ~ .menu {
+    max-height: 240px;
+  }
+  
+  .header .menu-btn:checked ~ .menu-icon .navicon {
+    background: transparent;
+  }
+  
+  .header .menu-btn:checked ~ .menu-icon .navicon:before {
+    transform: rotate(-45deg);
+  }
+  
+  .header .menu-btn:checked ~ .menu-icon .navicon:after {
+    transform: rotate(45deg);
+  }
+  
+  .header .menu-btn:checked ~ .menu-icon:not(.steps) .navicon:before,
+  .header .menu-btn:checked ~ .menu-icon:not(.steps) .navicon:after {
+    top: 0;
+  }
+  
+  /* 48em = 768px */
+  
+  @media (min-width: 48em) {
+    .header li {
+      float: left;
+    }
+    .header li a {
+      padding: 20px 30px;
+    }
+    .header .menu {
+      clear: none;
+      float: right;
+      max-height: none;
+    }
+    .header .menu-icon {
+      display: none;
+    }
+
+a.nav-item{
+    padding: 20px 30px;   
+}
+  }
+
+
+
+/* Additional custom styles */
+
+
+/* Nav bar styles */
+
+
+
+/* Nav bar ends */
+
+
+
+
+
+.slide-content{
+    margin: 0 40px;
+    overflow: hidden;
+    border-radius: 35px;
+    padding: 20px;
+}
+
+.slide-container{
+    max-width: 1120px;
+    width: 100%;
+
+    padding: 40px 0;
+}
+
+
+.card2{
+    border-radius: 35px;
+    background-color: aliceblue;
+    width: 250px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    text-align: center;
+}
+
+.image-content, .card2-content{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px 14px;
+}
+
+.image-content{
+    position: relative;
+    row-gap: 5px;
+   padding: 25px;
+}
+
+.overlay{ 
+    border-radius: 25px 25px 0 25px;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    background-color: #4472C4;
+}
+
+.overlay::before, 
+.overlay::after{
+    content:'';
+    position: absolute;
+    right: 0;
+    bottom: -40px;
+    height: 40px;
+    width: 40px;
+    background-color: #4472C4;
+}
+
+.overlay::after{
+    border-radius: 0 25px 0 0;
+    background-color: aliceblue;
+}
+
+.card2-image{
+    position: relative;
+}
+
+.card2-image .card2-img{
+    border-radius: 25px 25px 0 25px;
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+   
+    border: 4px solid #4472C4;
+}
+
+.name{
+    font-size: 18px;
+    font-weight: 500;
+    color:black;
+}
+
+.description{
+    font-size: 14px;
+    color: black;
+    text-align: center;
+}
+
+.swiper-navBtn{
+    color: #4472C4;
+    transition: color 0.3s ease;
+}
+
+.swiper-navBtn:hover{
+    color: #1457ca;
+}
+
+.swiper-navBtn::before,
+.swiper-navBtn:after{
+    font-size: 40px;
+}
+
+.swiper-button-next {
+ right: 0;   
+}
+
+.swiper-button-prev{
+    left: 0;
+}
+
+.swiper-pagination-bullet{
+background-color: #4472C4;
+opacity: 1;
+}
+.swiper-pagination-bullet-active{
+background-color: #1457ca;
+}
+
+/* Review Heading and Underline Styles */
+.review {
+    font-size: 2rem;
+    font-weight: 700;
+    margin-top: 50px;
+    position: relative;
+}
+
+.underline {
+    position: absolute;
+    width: 100%;
+    height: 2px;
+    background-color: #4472C4;
+    bottom: 0;
+    left: 0;
+    opacity: 0.5;
+}
+
+.flicker-text {
+    display: inline-block;
+    font-size: 1.5rem;
+    font-weight: 700;
+    position: relative;
+    color: #4472C4; /* Initial text color */
+    animation: flicker 3s infinite; /* Adjust the duration as needed */
+}
+
+/* Keyframes for Flickering Animation */
+@keyframes flicker {
+    0% {
+        color: #4472C4; /* Initial text color */
+    }
+    25% {
+        color: #FFD700; /* Flicker color 1 */
+    }
+    50% {
+        color: #FF4500; /* Flicker color 2 */
+    }
+    75% {
+        color: #32CD32; /* Flicker color 3 */
+    }
+    100% {
+        color: #4472C4; /* Back to initial text color */
+    }
+}
+
+        /* Two Columns Section Styles */
+        .subscribe-section {
+            margin-bottom: 60px;
+        }
+
+        .two-columns-container {
+            padding: 0 20px; 
+        }
+
+        .two-columns-section {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 50px;
+            background-color: #000;
+            border-radius: 20px;
+            margin: 0 auto;
+        }
+
+        .column,
+        .email-form {
+            flex: 0 0 48%;
+        }
+
+        .column {
+            margin-right: 20px;
+        }
+
+        .column h4 {
+            font-size: 1.5rem;
+            color: #ffffff;
+            margin-bottom: 20px;
+        }
+
+        .column p {
+            font-size: 1rem;
+            color: #ffffff;
+        }
+
+        .email-form {
+            position: relative;
+        }
+
+        .form-group {
+            margin-bottom: 20px;
+        }
+
+        .form-control {
+            width: 100%;
+            height: 50px;
+        }
+
+        .subscribe-btn {
+            position: absolute;
+            top: 0;
+            right: 0;
+            margin: 6px;
+        }
+
+
+        /* footer section */
+
+        .footer{
+            max-width: 1264px;
+            background-color: #000;
+            margin: 0 auto;
+            width: 100vw;
+            
+        }
+
+        .footer .row {
+            margin-right: 0;
+            margin-left: 0;
+        }
+
+        .footer-container {
+            width: 100vw;
+
+        }
+        
+        .container {
+            padding-right: 0;
+            padding-left: 0;
+        }
+        
+
+        
+        .footer-logo{
+            height: 30px;
+            width: 30px;
+        }
+
+        .footer a {
+            text-decoration: none; 
+            color: #fff; 
+          }
+          
+          .footer a:hover {
+            color: #ffd700; 
+          }
+
+/* Social media icon styles */
+.social-icons {
+    list-style: none;
+    padding: 0;
+    display: flex;
+  }
+  
+  .social-icons li {
+    margin-right: 15px;
+  }
+  
+  .social-icons a {
+    color: #fff;
+    font-size: 20px;
+    text-decoration: none;
+  }
+  
+  .social-icons a:hover {
+    color: #ffd700; 
+  }
+  
+
+  .copyright {
+    align-items: center;
+    color: #fff;
+    background-color: #000;
+  }
+  
+  .copyright p {
+    margin: 0;
+    font-size: 14px;
+  }
+/* Style for scroll to top button */
+#progress{
+    
+    position: fixed;
+    bottom: 20px;
+    right: 10px;
+    height: 70px;
+    width: 70px;
+    display: none;
+    place-items: center;
+    border-radius: 50%;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    cursor: pointer;
+}
+
+#progress-value{
+    display: block;
+    height: calc(100% - 15px);
+    width: calc(100% - 15px);
+    background-color: white;
+    border-radius: 50px;
+    display: grid;
+    place-items: center;
+    font-size: 35px;
+    color: #000;
+}
+        
+
+
+/* Responsive Styles for Review class */
+@media (max-width: 768px) {
+    .review {
+        font-size: 1.5rem;
+    }
+
+    .flicker-text {
+        font-size: 1.2rem;
+    }
+}
+
+        
+
+/* Responsive styles - Media Queries */
+    /* Carousel Cards Section */
+    @media (min-width: 768px) {
+        .carousel-inner {
+          display: flex;
+        }
+  
+        .carousel-item {
+          flex: 0 0 auto;
+          width: 33.333333%;
+        }
+      }
+      @media screen and (min-width: 481px) and (max-width: 768px) {
+
+        /* iPads, Tablets */
+        /* Styles for screens 481px — 768px */
+        .content {
+          top: 30%;
+        }
+      }
+  
+      @media screen and (min-width: 769px) and (max-width: 1024px) {
+  
+        /* Small screens, laptops */
+        /* Styles for screens 769px — 1024px */
+        .content {
+          top: 50%;
+        }
+      }
+  
+      @media screen and (min-width: 1025px) and (max-width: 1200px) {
+  
+        /* Desktops, large screens */
+        /* Styles for screens 1025px — 1200px */
+        .content {
+          top: 50%;
+        }
+      }
+  
+      @media screen and (min-width: 1201px) {
+  
+        /* Extra large screens, TV */
+        /* Styles for screens 1201px and more */
+        .content {
+          top: 30%;
+        }
+      }
+
+      @media screen and (max-width: 480px) {
+        .content {
+          top: 30%;
+        }
+  
+        /* Custom styles for the toggler button */
+        .navbar-toggler {
+          margin-left: auto !important;
+        }
+  
+        .store-btn {
+          display: none;
+        }
+      }
+  
+
+      /* Responsive Styles for email and footer section */
+      @media (max-width: 768px) {
+        .two-columns-section {
+            flex-direction: column;
+        }
+
+        .column,
+        .email-form {
+            width: 100%;
+            margin-right: 0;
+            margin-bottom: 20px;
+        }
+
+        .subscribe-btn {
+            position: static;
+            width: 100%;
+            margin-top: 20px;
+        }
+
+        .footer{
+            background-color: #000;
+            margin: auto;
+            width: 100%;
+        }
+
+
+
+
+    }
+
+
+
+
+
+
+    
+  
