@@ -4,6 +4,8 @@
 <head>
   <title>Game Store</title>
 
+  <meta name ="viewport" content="width=device-width,initial-scale=1">
+
 
 
   <!-- Swiper CSS -->
@@ -13,9 +15,11 @@
 
   <!-- Folder CSS -->
   <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/responsive.css">
 
   <!-- Custom CSS -->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
 
 
   <!-- Font Awesome -->
@@ -308,7 +312,7 @@
 
         <!-- Image column -->
         <div class="col-md-6 mt-5 text-md-right">
-          <img src="../imgs/Detective nari.png" class="img-fluid">
+          <img src="../imgs/Detective nari.png" class="hero-img img-fluid">
         </div>
       </div>
     </div>
@@ -656,7 +660,7 @@
               <!-- First Column (Logo) -->
               <div class="col-md-3">
                 <img src="../imgs/yeolom_logo_20x21.png" alt="Logo" class="img-fluid footer-logo mb-3">
-                <p class="mb-3 text-white">Lorem Ipsum is simply dummy text of the printing and typesetting industry. </p>
+                <p class="mb-3 text-white">We provide the best gaming experience possible. </p>
                 <a href="#" class="text-white">@yeolom</a>
               </div>
 
@@ -675,7 +679,7 @@
                 
                 <ul class="list-unstyled">
                   <li class="hideOnMobile"><a href="#" class="text-white">Contact Us</a></li>
-                  <li class="hideOnMobile"><p class="mb-3 text-white">Lorem Ipsum is simply dummy text of the printing and typesetting industry. </p></li>
+                  <li class="hideOnMobile"><p class="mb-3 text-white">We have great customer service and would love to hear your feedbacks. </p></li>
                   <li class="hideOnMobile"><a href="contact@yeolom.com" class="text-white">contact@yeolom.com</a></li>
                 </ul>
               </div>

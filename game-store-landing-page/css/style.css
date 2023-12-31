@@ -165,17 +165,55 @@ a.nav-item{
     padding: 20px 30px;   
 }
   }
+/* hero section */
+/* Responsive styles */
+@media only screen and (max-width: 768px) {
+
+
+  .text-md-right {
+      text-align: center !important;
+  }
+
+  .img-fluid {
+      max-width: 100%;
+      height: auto;
+      margin-top: 200px;
+      margin-right: 70px;
+  }
+}
+
+@media screen and (max-width: 799px) {
+  .content{
+    text-align: center;
+    margin: 10px 70px;
+    font-size: 25px;
+  } 
+
+  .first-heading,.second-heading{
+    font-size: 25px;
+  }
+
+  .header{
+    position: static;
+  }
+
+  html, body {
+    overflow-x: hidden;
+  }
+  body {
+    position: relative
+  }
+
+
+}
+
+
 
 
 
 /* Additional custom styles */
 
 
-/* Nav bar styles */
-
-
-
-/* Nav bar ends */
 
 
 
@@ -535,7 +573,7 @@ background-color: #1457ca;
         /* iPads, Tablets */
         /* Styles for screens 481px — 768px */
         .content {
-          top: 30%;
+          top: 5%;
         }
       }
   
@@ -568,8 +606,30 @@ background-color: #1457ca;
 
       @media screen and (max-width: 480px) {
         .content {
-          top: 30%;
+          top: 5%;
+          font-size: 25px!important;
         }
+        .content p{
+          font-size: 15px!important;
+        }
+
+        .first-heading, .second-heading{
+          font-size: 30px!important;
+          margin-right: 40px; 
+         }
+
+         .hero-img{
+          height: 70%;
+          width: 70%;
+          margin-right: 10px;
+          margin-top: 150px;
+         }
+
+         .hero-section {
+          z-index: 2; 
+        }
+        
+
   
         /* Custom styles for the toggler button */
         .navbar-toggler {

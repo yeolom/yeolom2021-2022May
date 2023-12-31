@@ -54,4 +54,32 @@ let calcScrollValue = () => {
 
 
 // hamburger
+$(document).ready(function () {
+  // Existing code...
+
+  // Calculate and adjust hero section margin on menu toggle
+  $('#menu-btn').click(function () {
+    // Toggle the navigation menu
+    $('.menu').slideToggle();
+
+    // Toggle the 'active' class on the hamburger icon
+    $('.menu-icon').toggleClass('active');
+
+    // Calculate the height of the open navigation menu
+    var navHeight = $('.menu').height();
+
+    // Check if the navigation menu is open
+    if ($('.menu-icon').hasClass('active')) {
+      // Adjust the top margin of the hero section
+      $('.hero-section').css('margin-top', navHeight + 'px');
+    } else {
+      // Reset the top margin when the menu is closed
+      $('.hero-section').css('margin-top', '0');
+    }
+  });
+
+  // Other existing code...
+});
+
+
 
