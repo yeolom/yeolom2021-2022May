@@ -77,8 +77,6 @@ $(document).ready(function () {
       $('.hero-section').css('margin-top', '0');
     }
   });
-
-  // Other existing code...
 });
 
 
