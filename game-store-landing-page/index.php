@@ -326,8 +326,9 @@
                       <p class="card-description">fun & thrill </p>
                       <h5 class="card-title">Private Parfait</h5>
                       <p class="card-description">A new soldier recruit who is sent on non-combat missions to gather items; once all the items are gathered the recruit was shocked about what he helped to do</p>
-                      <form action="downloadform.php" method="post">
-                                              <button class="btn btn-primary download-button glowing-btn"><span class="glowing-txt">DOW<span class="faulty-letter">N</span>LOAD <span class="faulty-letter">NOW</span></span></button>
+<a href="game-details-page.php">
+<button class="btn btn-primary download-button glowing-btn"><span class="glowing-txt">GET <span class="faulty-letter">NOW</span></span></button>  
+</a> 
                       </form>
 
 
