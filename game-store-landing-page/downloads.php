@@ -97,6 +97,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
                 // Recipient
                 $mail->addAddress($email);
 
+                
                 // Content
                 $mail->isHTML(true);
                 $mail->Subject = 'Download Link for Game';
